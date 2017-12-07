@@ -1,0 +1,203 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: #333;
+	margin: 0px;
+	font-family: 'FiraCode';
+	src: url('../fonts/FiraCode-Regular.ttf');
+	font-size: 30px;
+}
+
+@font-face{
+	font-family: 'FiraCode';
+	src: url('../fonts/FiraCode-Regular.ttf');
+	font-size: 25px;
+}
+
+.start:hover{
+	opacity: 0;
+}
+
+ul.navbar{
+	list-style-type: none;
+	background-color: #333;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li a{
+	display: block;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	color: white;
+	width: 25%;
+	text-decoration: none;
+	transition: background-color 500ms, font-weight 500ms;
+}
+
+.navbar li a:visited{
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar li a:hover{
+	background-color: white;
+	color: dodgerblue;
+	font-weight: bold;
+}
+
+.navbar li a:active{
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+}
+
+.btt a{
+	text-decoration: none;
+	color: white;
+	background-color: slateblue;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	transition: color 500ms, background-color 500ms, font-weight 500ms;
+}
+
+.btt a:hover{
+	color: #222;
+	background-color: #bfbfbf;
+	font-weight: bold;
+}
+
+.btt a:active{
+	color: slateblue;
+	background-color: white;
+	font-weight: bold;
+}
+
+.parallax{
+	height: 100%;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 1em #111;
+}
+
+.aboutme{
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+.aboutme h2{
+	text-shadow: 1px 1px 4px black;
+}
+
+.education{
+	background-color: #333;
+	padding: 20px;
+}
+
+.edudetails{
+	background-color: #333;
+	color: white;
+}
+
+.edudetails h2{
+	text-shadow: 1px 1px 4px black;
+}
+
+.c{
+	margin-left: 12%;
+}
+
+.marks{
+	margin-left: 10%;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.marks th, td{
+	border: 2px;
+	padding: 15px 20px 15px 20px;
+	text-align: center;
+}
+
+.marks th{
+	background-color: dodgerblue;
+	border-bottom: 2px solid black;
+	text-shadow: 1px 1px 2px black;
+}
+
+.marks th:hover{
+	cursor: default;
+}
+
+.marks tr{
+	background-color: rgba(0,150,255, 0.2);
+}
+
+.marks .row{
+	transition: all 400ms;
+}
+
+.marks .row:hover{
+	background-color: white;
+	color: slateblue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.skills{
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+.skills h2{
+	text-shadow: 1px 1px 4px black;
+}
+
+.contact{
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+.contact h2{
+	text-shadow: 1px 1px 4px black;
+}
+
+.socialclass{
+	display: block;
+	clear: right;
+}
+
+.social{
+	float: left;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	opacity: 0.75;
+	transition-duration: 500ms;
+}
+
+.social:hover{
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+footer{
+	color: white;
+	background-color: #333;
+	display: inline;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}

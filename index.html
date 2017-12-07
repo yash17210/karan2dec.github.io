@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="SM Homework">
+	<meta name="author" content="Karan Tandon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="Stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="s_ico.ico">
+	<title>Karan Tandon</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		$("a").on('click', function(event) {
+			if (this.hash !== "") {
+				event.preventDefault();
+				var hash = this.hash;
+
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top}, 750, function(){
+						window.location.hash = hash;
+				});
+			}
+		});
+	});
+	</script>
+
+</head>
+<body>
+
+<ul class="navbar" id="nav">
+	<li><a href="#abt">ABOUT ME</a></li>
+	<li><a href="#edu">EDUCATION</a></li>
+	<li><a href="#skill">SKILLS</a></li>
+	<li><a href="#cont">CONTACT</a></li>
+</ul>
+
+<div class="parallax" style="background-image: url('images/me.jpg');"></div>
+
+
+<!-- ABOUT ME -->
+<div class="aboutme" id="abt">
+	<h2>ABOUT ME</h2>
+	<ul>
+		<li>Hi, I'm Karan Tandon, a coding enthusiast and a Mathematics lover!</li>
+		<li>I was born on December 2, 1998</li>
+		<li>My hobbies include Badminton, Coding, Listening to Music and lots more!</li>
+		<li>I completed my schooling from Jaspal Kaur Public School, Delhi<br/>
+			and am currently pursuing my B.Tech in CSE from <br/>
+			Indraprastha Institute of Information Technology, Delhi.</li>
+		
+		<br/>
+
+		<li style="list-style-type: none;" class="btt"><a href="#nav">BACK TO TOP</a></li>
+	</ul>
+</div>
+
+
+<div class="parallax" style="background-image: url('images/edu.jpg');"></div>
+
+
+<!-- EDUCATION -->
+<div class="education" id="edu">
+	<div class="edudetails">
+	<h2>EDUCATION</h2>
+	<ul>
+		<li style="list-style-type: none;"><b>COLLEGE</b></li>
+		<li>Bachelor of Technology in Computer Science Engineering (2017 - 2021)<br/>
+		Indraprastha Institute of Information Technology, Delhi</li>
+
+		<br/>
+
+		<li style="list-style-type: none;"><b>SCHOOL</b></li>
+		<li>Class XII CBSE, Science with C++ (2017)<br/>
+		Jaspal Kaur Public School, Delhi<br/>
+		Percentage: 95.2%</li>
+
+		<br/>
+		<div class="c"><caption>Class XII Marksheet</caption></div>
+		<table class="marks">
+		<tr">
+			<th>SUBJECT</th>
+			<th>SCORE</th>
+		</tr>
+		<tr class="row">
+			<td>PHYSICS</td>
+			<td>95</td>
+		</tr>
+		<tr class="row">
+			<td>CHEMISTRY</td>
+			<td>98</td>
+		</tr>	
+		<tr class="row">
+			<td>MATHEMATICS</td>
+			<td>99</td>
+		</tr>	
+		<tr class="row">	
+			<td>C++</td>
+			<td>96</td>
+		</tr>
+		<tr class="row">	
+			<td>ENGLISH</td>
+			<td>88</td>
+		</tr>
+		</table>
+		<br/>
+
+		<li>Class X CBSE, Science with Hindi (2015)<br/>
+		Jaspal Kaur Public School, Delhi<br/>
+		CGPA: 10.0</li>
+
+		<br/>
+
+		<li style="list-style-type: none;" class="btt"><a href="#nav">BACK TO TOP</a></li>
+	</ul>
+	</div>
+</div>
+
+<div class="parallax" style="background-image: url('images/skills.jpg');"></div>
+
+
+<!-- SKILLS -->
+<div class="skills" id="skill">
+	<h2>SKILLS</h2>
+	<ul>
+		<li style="list-style-type: none;"><b>PROGRAMMING LANGUAGES</b></li>
+			<li>C++</li>
+			<li>C</li>
+			<li>Python</li>
+			<li>Java</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Visual Basic</li>
+
+		<br/>
+
+		<li style="list-style-type: none;"><b>SPORTS</b></li>
+			<li>Badminton</li>
+			<li>Football</li>
+			<li>Table Tennis</li>
+
+		<br/>
+
+	</ul>
+	<ol>
+
+		<b>SPOKEN LANGUAGES</b>
+			<li>English</li>
+			<li>Hindi</li>
+			<li>Punjabi</li>
+
+		<br/>
+
+		<li style="list-style-type: none;"><b>MATHEMATICS !</b></li>
+
+		<br/>
+
+		<li style="list-style-type: none;" class="btt"><a href="#nav">BACK TO TOP</a></li>
+	</ul>
+</div>
+
+
+<div class="parallax" style="background-image: url('images/me2.jpg');"></div>
+
+
+<div class="contact" id="cont">
+	<h2>CONTACT</h2>
+	<ul>
+		<li style="list-style-type: none;">MOBILE: +918750254274</li>
+		<li style="list-style-type: none;"> EMAIL: karan17058@iiitd.ac.in</li>
+
+		<br/>
+
+		<li style="list-style-type: none;"><b>SOCIAL MEDIA</b></li>
+	</ul>
+	<ul class="socialclass">
+		<li style="list-style-type: none;"><a target="_blank" href="https://www.facebook.com/karan2dec"><img alt="Facebook" class="social" src="images/fb.png" title="Facebook"></a></li>
+		<li style="list-style-type: none;"><a target="_blank" href="https://plus.google.com/+KaranTandonLawlietYagami"><img alt="Google+" class="social" src="images/gplus.png" title="Google+"></a></li>
+		<li style="list-style-type: none;"><a target="_blank" href="https://github.com/karan2dec"><img alt="GitHub" class="social" src="images/github.png" title="GitHub""></a></li>
+	</ul>
+		<br/><br/><br/>
+	<ul>
+		<li style="list-style-type: none;" class="btt"><a href="#nav">BACK TO TOP</a></li>
+	</ul>
+</div>
+
+
+<div class="parallax" style="background-image: url('images/bg.jpg');"></div>
+
+<footer>
+	<h5>
+		CREATED BY: KARAN TANDON
+	</h5>	
+</footer>
+
+</body>
+</html>
